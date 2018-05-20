@@ -9,7 +9,7 @@ weight is in kilograms, height is in meters
 #include <iomanip>                               // For stream manipulators
 #include <array>                                 // For array<T,N>
 
-int main()
+int array()
 {
     const unsigned int min_wt {100U};              // Minimum weight in table in lbs
     const unsigned int max_wt {250U};              // Maximum weight in table in lbs
