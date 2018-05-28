@@ -37,7 +37,7 @@ int insert(){
     words.push_back("Algo");
 
     words.emplace_back("absremious");//use emplace_back() instead of push_back()
-    // because the front is more efficient than the rara
+    // because the front is more efficient than the rare
 
     string str {"Alkabela"};
 
@@ -54,7 +54,7 @@ int insert(){
 }
 
 
-int main()
+int Vector()
 {
     vector<string> words;                     // Stores words to be sorted
     words.reserve(10);                        // Allocate some space for elements
@@ -84,5 +84,8 @@ int main()
         std::cout << "First element is empty string object." << std::endl;
 
     std::cout << "First element is \"" << words.front() << "\"" << std::endl;
+    words.pop_back();
+
+    words.clear();
     system("PAUSE");
 }
